@@ -1,3 +1,4 @@
+#data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington DC.
 import time
 import pandas as pd
 import numpy as np

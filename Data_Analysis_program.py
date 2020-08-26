@@ -75,9 +75,7 @@ def load_data(city, months, days):
     df['year'] = df['Start Time'].dt.year
     df['month'] = df['Start Time'].dt.month
     df['end_year'] = df['End Time'].dt.year
-    df['end_month'] = df['End Time'].dt.month
     df['week_day'] = df['Start Time'].dt.dayofweek
-    df['end_week_day'] = df['End Time'].dt.dayofweek
     df['start_hour'] = df['Start Time'].dt.hour
     #in this function ..till here we have manipulated the dataframe to include extra column with Year,Month,Weekday
     #now applying appropriate filter to the dataframe to bw done with this function

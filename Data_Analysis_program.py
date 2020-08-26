@@ -74,7 +74,6 @@ def load_data(city, months, days):
     df['End Time'] = pd.to_datetime(df['End Time'])
     df['year'] = df['Start Time'].dt.year
     df['month'] = df['Start Time'].dt.month
-    df['end_year'] = df['End Time'].dt.year
     df['week_day'] = df['Start Time'].dt.dayofweek
     df['start_hour'] = df['Start Time'].dt.hour
     #in this function ..till here we have manipulated the dataframe to include extra column with Year,Month,Weekday

@@ -15,4 +15,8 @@ Washington Data Source - https://www.capitalbikeshare.com/system-data
 ### Credits
 In this project, We will use data provided by Motivate,a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. You will compare the system usage between three large cities: Chicago, New York City, and Washington DC
 
+Credit also goes to udacity for the forked GitHub repository - 
+
+https://github.com/udacity/pdsnd_github
+
 

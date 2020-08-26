@@ -1,3 +1,4 @@
+#data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington DC.
 import time
 import pandas as pd
 import numpy as np
@@ -157,8 +158,6 @@ def user_stats(df):
 
     # TO DO: Display earliest, most recent, and most common year of birth
 
-    #Evaluator i am not being able to find the earliest birth year without countering my NaN placeholder value of '0',
-    #please do provide with the solution for this part only
     try:
         # TO DO: Display counts of gender
         gndr = df['Gender'].value_counts()[:2].index.tolist()

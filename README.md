@@ -5,7 +5,7 @@
 Data_Analysis_program(upon Bikeshare data)
 
 ### Description
-We make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington.It answer interesting questions about it by computing descriptive statistics. I also wrote a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
+We make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington DC.It answer interesting questions about it by computing descriptive statistics. I also wrote a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
 Chicago Data Source - https://www.divvybikes.com/system-data

@@ -45,4 +45,9 @@ Credit also goes to udacity for the forked GitHub repository -
 
 https://github.com/udacity/pdsnd_github
 
+### Who do I talk to?
+Amritraj Paul
+contact info:- amritrajpaul@gmail.com
+LinkedIn:- https://www.linkedin.com/in/amritrajpaul
+
 

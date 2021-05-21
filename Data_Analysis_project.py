@@ -20,7 +20,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # gets user input for city (chicago, new york city, washington).
     while True:
         try:
             city_inp = int(input("Enter the City to analyse about as: \n'1' for chicago,\n'2' for new york city,\n'3' for washington\n"))
@@ -31,7 +31,7 @@ def get_filters():
         except ValueError as v :
             print("Please enter valid number",v)
             
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # gets user input for month (all, january, february, ... , june)
     while True:
         try:
             month_inp = int(input("Enter the month of {} city to analyse about as: \n'1' for all,\n'2' for january,\n'3' for february,\n'4' for march,\n'5' for april,\n'6' for may,\n'7' for june,\n".format(cities[city_inp - 1])))
@@ -42,7 +42,7 @@ def get_filters():
         except ValueError as v :
             print("Please enter valid number",v)
                              
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # gets user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         try:
             day_inp = int(input("Enter the day of {} of {} city to analyse about as: \n'1' for all,\n'2' for monday,\n'3' for tuesday,\n'4'for wednesday,\n'5' for thursday,\n'6' for friday,\n'7' for saturday,\n'8' for sunday\n".format(months[month_inp - 1],cities[city_inp - 1])))
@@ -151,12 +151,12 @@ def user_stats(df):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    # TO DO: Display counts of user types
+    # Displays counts of user types
     usty = df['User Type'].value_counts()[:2].index.tolist()
     print("{} user types are there of:{}".format(usty[0],df['User Type'].value_counts()[usty[0]]))
     print("{} user types are there of:{}".format(usty[1],df['User Type'].value_counts()[usty[1]]))
 
-    # TO DO: Display earliest, most recent, and most common year of birth
+    # Displays earliest, most recent, and most common year of birth
 
     try:
         # TO DO: Display counts of gender
